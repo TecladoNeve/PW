@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+body{
+background-color: rgb(169, 194, 163);
+color: rgb(0, 0, 0);
+}
+
+header{
+background-color: rgb(10, 100, 10);
+height: 90px ;
+width: 1000-px;
+border: 5px;
+border-radius: 20px;
+padding: 20px;
+}
+
+.Titulo{
+text-align: center;
+font-family: "Grechen Fuemen", serif;
+font-size: 20px;
+
+}
+
+.letras{
+text-align: justify;
+color: black;
+}
+
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.produto {
+    width: 300px;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.produto img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
